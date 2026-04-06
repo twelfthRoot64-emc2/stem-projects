@@ -1,4 +1,4 @@
-console.log("loaded");
+
 
 function setup() {
   createCanvas(600, 400);
