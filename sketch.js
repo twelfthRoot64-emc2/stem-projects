@@ -3,16 +3,7 @@ let velocity = 2;
 
 functionSetup(){
 createCanvas(600, 400);
+background(255, 0, 0);
 }
 
-function draw(){
-  background(220);
 
-x += velocity;
-
-if(x > width){
-  x = 0
-}
-
-circle(x, 200, 20);
-}
