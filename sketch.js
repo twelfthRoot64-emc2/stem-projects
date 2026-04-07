@@ -2,7 +2,11 @@ let x = 0;          // position
 let velocity = 2;   // constant speed
 
 function setup() {
-createCanvas(600, 400);
+createCanvas(windowWidth, windowHeight);
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
