@@ -1,6 +1,6 @@
 let x = 0;          // position
 let velocity = 2;   // constant speed
-
+ 
 function setup() {
 createCanvas(windowWidth, windowHeight);
 }
